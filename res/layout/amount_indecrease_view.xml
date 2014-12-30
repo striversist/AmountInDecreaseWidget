@@ -1,0 +1,38 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="37dp"
+    android:orientation="horizontal"
+    android:focusable="true"
+    android:focusableInTouchMode="true" >
+    
+    <ImageButton
+        android:id="@+id/decrease"
+        android:layout_width="33dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:src="@drawable/ic_minus"
+        android:background="@drawable/amount_indecrease_button"
+        android:contentDescription="@null" />
+    
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:imeOptions="actionDone"
+        android:inputType="numberDecimal"
+        android:singleLine="true"
+        android:background="@drawable/amount_indecrease_edit"
+        android:hint="" />
+    
+    <ImageButton
+        android:id="@+id/increase"
+        android:layout_width="33dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:src="@drawable/ic_plus"
+        android:background="@drawable/amount_indecrease_button"
+        android:contentDescription="@null" />
+    
+</LinearLayout>
